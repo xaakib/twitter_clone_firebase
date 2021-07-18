@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'screens/first_interface_screen.dart';
 import 'screens/signup_screen.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: SignupScreen(),
+      home: FirstInterfaceScreen(),
     );
   }
 }
